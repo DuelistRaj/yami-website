@@ -1,0 +1,46 @@
+header {
+    background-color:#2C2A2D;
+}
+
+body {
+    margin: 0px;
+    background-color: #211F22;
+    font-family: 'Metrophobic';
+    color:whitesmoke;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 48px;
+    text-transform: uppercase;
+
+}
+
+.nav-link-wrapper {
+    height: 24px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav-link-wrapper a:hover {
+    color: palevioletred;
+}
