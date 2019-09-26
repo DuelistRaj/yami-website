@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://DuelistRaj.github.io/yami-website",
+  "homepage": "https://duelistraj.github.io/yami-website",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
