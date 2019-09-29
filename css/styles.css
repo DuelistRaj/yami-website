@@ -58,6 +58,7 @@ header #logo {
 header #logo img {
     margin: 0;
     width: 164px;
+    padding-top: 20px;
 }
 
 header nav {
@@ -77,3 +78,4 @@ header nav {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
+
