@@ -1,0 +1,79 @@
+body {
+    font-family: 'Metrophobic';
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    height: 2160px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgba(15, 15, 15, 1);
+    box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
+    color:#ffffff;
+    min-height: 20px;
+    height: 96px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header li a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header li a:hover {
+    color: palevioletred;
+    transition: color 0.5s;
+}
+
+header #logo {
+    float: left;
+    max-width: 20%;
+    min-height: 96px;
+}
+
+header #logo img {
+    margin: 0;
+    width: 164px;
+}
+
+header nav {
+    float: right;
+    padding-top: 35px;
+}
+
+.solid {
+    background-color: rgba(15, 15, 15, 0.8);
+    box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
+}
+
+#background {
+    min-height: 732px;
+    background: url(../media/m_herobg-compressor.jpg);
+    background-position: bottom;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
