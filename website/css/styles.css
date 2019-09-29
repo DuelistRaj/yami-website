@@ -1,46 +1,68 @@
-header {
-    background-color:#2C2A2D;
-}
-
 body {
-    margin: 0px;
-    background-color: #211F22;
     font-family: 'Metrophobic';
-    color:whitesmoke;
+    padding: 0;
+    margin: 0;
+    background-color: #211f22;
+    height: 2160px;
 }
 
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.right-side {
-    display: flex;
+header {
+    color:#ffffff;
+    padding-top: 10px;
+    min-height: 20px;
+    height: 50px;
+    border-bottom: mediumvioletred 3px solid;
+    position: fixed;
+    width: 100%;
 }
 
-.nav-wrapper > .right-side > div {
-    margin-right: 48px;
-    text-transform: uppercase;
-
-}
-
-.nav-link-wrapper {
-    height: 24px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper a {
-    color: whitesmoke;
+header a {
+    color: #ffffff;
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header li a:hover {
+    color: palevioletred;
     transition: color 0.5s;
 }
 
-.nav-link-wrapper:hover {
-    border-bottom: 1px solid whitesmoke;
+header #logo {
+    float: left;
 }
 
-.nav-link-wrapper a:hover {
-    color: palevioletred;
+header #logo h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    padding-top: 10px;
+}
+
+.solid {
+    background-color: #2c2a2d;;
+}
+
+#background {
+    min-height: 540px;
+    background: url(../media/herobg-compressor.jpg);
+    background-position: bottom;
 }
