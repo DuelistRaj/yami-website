@@ -6,12 +6,14 @@ body {
     height: 2160px;
 }
 
+/*GLOBAL*/
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
+/*NAVBAR*/
 header {
     background-color: rgba(15, 15, 15, 1);
     box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
@@ -71,6 +73,7 @@ header nav {
     box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
 }
 
+/*BACKGROUND IMAGE*/
 #background {
     min-height: 732px;
     background: url(../media/m_herobg-compressor.jpg);
@@ -79,10 +82,12 @@ header nav {
     -webkit-filter: blur(8px);
 }
 
+/*IMAGES AND DESCRIPTION*/
 #boxes {
     margin-top: 96px;
 }
 
+/*Intro Heading*/
 #boxes .boxes-intro h2 {
     color: #ffffff;
     text-align: center;
@@ -98,6 +103,7 @@ header nav {
     height: 335px;
 }
 
+/*Images*/
 #boxes .box img {
     max-width: 100%;
     height: 335px;
@@ -105,8 +111,10 @@ header nav {
     object-fit: cover;
 }
 
+/*Description*/
 .box-description {
     max-width: 48%;
+    height: 335px;
     float: right;
 }
 
@@ -128,6 +136,36 @@ header nav {
     -webkit-font-smoothing: antialiased;
 }
 
+/*SPACE BETWEEN DIVS*/
+.hc_space_cnt {
+    padding: 0 0 0 0;
+}
+
+.col-md-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 0 15px;
+}
+
+hr.space.l {
+    height: 50px;
+}
+
+hr.space {
+    border: none !important;
+    clear: both;
+    height: 70px;
+    margin: 0;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
 @media (max-width: 720px) {
     #boxes .box {
         width: 100%;
@@ -142,5 +180,21 @@ header nav {
     #boxes .box img {
         max-width: 100%;
         height: auto;
+    }
+    
+    .col-md-12 {
+        display: none;
+    }
+    
+    hr.space.l {
+        display: none;
+    }
+    
+    hr.space {
+        display: none;
+    }
+    
+    hr {
+        display: none;
     }
 }
