@@ -97,28 +97,37 @@ header nav {
     margin: 0 0 64px 0;
 }
 
-#boxes .box {
+#boxes .box-left {
     float: left;
     width: 50%;
     height: 335px;
 }
 
-/*Images*/
-#boxes .box img {
+/*Images Left*/
+#boxes .box-left img {
     max-width: 100%;
     height: 335px;
     padding-right: 10px;
     object-fit: cover;
 }
 
-/*Description*/
-.box-description {
+/*Images Right*/
+#boxes .box-right img {
+    width: 50%;
+    height: 335px;
+    padding-left: 10px;
+    float: right;
+    object-fit: cover;
+}
+
+/*Description Left*/
+.box-left-description {
     max-width: 48%;
     height: 335px;
     float: right;
 }
 
-.box-description h3 {
+.box-left-description h3 {
     color: #ffffff;
     font-size: 24px;
     line-height: 30px;
@@ -127,12 +136,37 @@ header nav {
     padding-left: 10px;
 }
 
-.box-description p {
+.box-left-description p {
     color: #ffffff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     padding-left: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Description Right*/
+.box-right-description {
+    max-width: 48%;
+    height: 335px;
+    float: left;
+}
+
+.box-right-description h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    padding-right: 10px;
+}
+
+.box-right-description p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 10px;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -167,18 +201,33 @@ hr {
 }
 
 @media (max-width: 720px) {
-    #boxes .box {
+    #boxes .box-left {
         width: 100%;
         height: auto;
     }
 
-    .box-description {
+    #boxes .box-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-left-description {
         max-width: 100%;
         margin: 30px 0 0 0;
     }
 
-    #boxes .box img {
+    .box-right-description {
         max-width: 100%;
+        margin: 30px 0 0 0;
+    }
+
+    #boxes .box-left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #boxes .box-right img {
+        width: 100%;
         height: auto;
     }
     
