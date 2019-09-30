@@ -7,6 +7,7 @@ body {
 }
 
 /*GLOBAL*/
+
 .container {
     width: 80%;
     margin: auto;
@@ -14,6 +15,7 @@ body {
 }
 
 /*NAVBAR*/
+
 header {
     background-color: rgba(15, 15, 15, 1);
     box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
@@ -68,12 +70,19 @@ header nav {
     padding-top: 35px;
 }
 
+/*SECONDARY CLASSES*/
+
 .solid {
     background-color: rgba(15, 15, 15, 0.8);
     box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
 }
 
+.mobile-hidden {
+    display: none;
+}
+
 /*BACKGROUND IMAGE*/
+
 #background {
     min-height: 732px;
     background: url(../media/m_herobg-compressor.jpg);
@@ -83,11 +92,13 @@ header nav {
 }
 
 /*IMAGES AND DESCRIPTION*/
+
 #boxes {
     margin-top: 96px;
 }
 
 /*Intro Heading*/
+
 #boxes .boxes-intro h2 {
     color: #ffffff;
     text-align: center;
@@ -104,6 +115,7 @@ header nav {
 }
 
 /*Images Left*/
+
 #boxes .box-left img {
     max-width: 100%;
     height: 335px;
@@ -112,6 +124,7 @@ header nav {
 }
 
 /*Images Right*/
+
 #boxes .box-right img {
     width: 50%;
     height: 335px;
@@ -121,6 +134,7 @@ header nav {
 }
 
 /*Description Left*/
+
 .box-left-description {
     max-width: 48%;
     height: 335px;
@@ -146,6 +160,7 @@ header nav {
 }
 
 /*Description Right*/
+
 .box-right-description {
     max-width: 48%;
     height: 335px;
@@ -171,6 +186,7 @@ header nav {
 }
 
 /*SPACE BETWEEN DIVS*/
+
 .hc_space_cnt {
     padding: 0 0 0 0;
 }
@@ -201,48 +217,86 @@ hr {
 }
 
 @media (max-width: 720px) {
+    header {
+        height: 64px;
+    }
+    header ul {
+        background-color: rgba(15, 15, 15, 1);
+        margin-top: 45px;
+        width: 100%;
+        height: initial;
+        float: none;
+        padding-bottom: 10px;
+        margin: 10px 0 0 0;
+    }
+    header ul li {
+        float: none;
+        display: block;
+        width: 100%;
+        line-height: 45px;
+        text-align: left;
+        padding-left: 1em;
+    }
+    header ul li a {
+        display: block;
+        width: 90%;
+        border-bottom: 1px solid #f9cf87;
+    }
+    header nav {
+        display: none;
+    }
+    header #logo {
+        float: right;
+        max-width: 40%;
+        min-height: 64px;
+        transform: translateY(-24px);
+    }
+    header #logo img {
+        float: right;
+        margin: 0;
+        width: 96px;
+        padding-top: 0px;
+        position: relative;
+    }
+    #m-nav-icon {
+        background: url(../media/m-nav-icon.png);
+        width: 40px;
+        height: 40px;
+        transform: translateY(12px);
+    }
     #boxes .box-left {
         width: 100%;
         height: auto;
     }
-
     #boxes .box-right {
         width: 100%;
         height: auto;
     }
-
     .box-left-description {
         max-width: 100%;
         margin: 30px 0 0 0;
     }
-
     .box-right-description {
         max-width: 100%;
         margin: 30px 0 0 0;
     }
-
     #boxes .box-left img {
         max-width: 100%;
         height: auto;
     }
-
     #boxes .box-right img {
         width: 100%;
         height: auto;
     }
-    
     .col-md-12 {
         display: none;
     }
-    
     hr.space.l {
         display: none;
     }
-    
     hr.space {
         display: none;
     }
-    
     hr {
         display: none;
     }
