@@ -87,7 +87,7 @@ header nav {
 #background {
     min-height: 620px;
     background: url(../media/m_herobg-compressor.jpg);
-    background-position: bottom;
+    background-position: 47% 100%;
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
