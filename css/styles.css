@@ -50,6 +50,8 @@ header li a {
 
 header li a:hover {
     color: palevioletred;
+    -webkit-filter: brightness(150%);
+    filter: brightness(150%);
     transition: color 0.5s;
 }
 
@@ -84,17 +86,70 @@ header nav {
 /*BACKGROUND IMAGE*/
 
 #background {
-    min-height: 732px;
+    min-height: 620px;
     background: url(../media/m_herobg-compressor.jpg);
     background-position: bottom;
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
 
+#overlay {
+    margin: 20px 0 0 0;
+}
+
+.call-to-action {
+    position: relative;
+    padding: 16px 0 0 0;
+    min-height: 48px;
+    display: flex;
+}
+
+/*Size: 200 x 72 px*/
+
+#discord {
+    position: relative;
+    margin-left: auto;
+    margin-right: 1%;
+    width: 200px;
+    min-height: 64px;
+    background: url(../media/Discord.png) no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+
+#discord:hover {
+    background: url(../media/Discord-Hover.png) no-repeat;
+}
+
+/*Size: 200 x 72 px*/
+
+#patreon {
+    position: relative;
+    margin-right: auto;
+    margin-left: 1%;
+    width: 200px;
+    min-height: 64px;
+    background: url(../media/Patreon.png) no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+
+#patreon:hover {
+    background: url(../media/Patreon-Hover.png) no-repeat;
+}
+
+.clickable {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    min-height: 64px;
+}
+
 /*IMAGES AND DESCRIPTION*/
 
 #boxes {
-    margin-top: 96px;
+    margin-top: 64px;
 }
 
 /*Intro Heading*/
@@ -287,6 +342,17 @@ hr {
     #boxes .box-right img {
         width: 100%;
         height: auto;
+    }
+    .call-to-action {
+        display: block;
+    }
+    #discord {
+        margin-bottom: 10px;
+        margin-right: auto;
+    }
+    #patreon {
+        
+        margin-left: auto;
     }
     .col-md-12 {
         display: none;
