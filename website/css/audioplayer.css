@@ -23,7 +23,7 @@
 	/* 40 */
 	height: 100%;
 	text-align: left;
-	text-indent: 9999px;
+	text-indent: -9999px;
 	cursor: pointer;
 	z-index: 2;
 	top: 0;
