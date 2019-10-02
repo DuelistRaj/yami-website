@@ -88,8 +88,6 @@ header nav {
     min-height: 620px;
     background: url(../media/m_herobg-compressor.jpg);
     background-position: 47% 100%;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
 }
 
 #overlay {
@@ -101,6 +99,27 @@ header nav {
     padding: 16px 0 0 0;
     min-height: 48px;
     display: flex;
+}
+
+/*AUDIO PLAYER*/
+
+#wrapper {
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    margin: 0 auto;
+    padding-top: 550px;
+}
+
+.attribution {
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.attribution a {
+    color: #fff;
 }
 
 /*Size: 200 x 72 px*/
@@ -301,6 +320,12 @@ footer p {
     color: #ffffff;
     text-align: center;
     font-size: 13px;
+}
+
+/*SOCIAL MEDIA*/
+
+.social-icon-wrapper {
+    margin: 550px 0 0 0;
 }
 
 .social-icon {
@@ -747,14 +772,26 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
+    .social-icon-wrapper {
+        display: none;
+    }
     .social-icon {
-        display: flex;
+        width: 89px;
+        max-height: 64px;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 10px;
+    }
+    #facebook {
+        display: inline-block;
+        float: none;
+        margin: 0 !important;
     }
     #twitter {
-        margin-left: 10px;
-        margin-right: 0;
+        display: inline-block;
+        float: none;
+        margin: 0 !important;
+        padding-left: 20px;
     }
     .call-to-action {
         display: block;
