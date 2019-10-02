@@ -7,7 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yami</title>
     <link href="https://fonts.googleapis.com/css?family=Metrophobic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/audioplayer.css" />
     <link rel="stylesheet" href="css\styles.css">
+    <script>
+        /*
+            VIEWPORT BUG FIX
+            iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+        */
+        (function (doc) { var addEvent = 'addEventListener', type = 'gesturestart', qsa = 'querySelectorAll', scales = [1, 1], meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : []; function fix() { meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1]; doc.removeEventListener(type, fix, true); } if ((meta = meta[meta.length - 1]) && addEvent in doc) { fix(); scales = [.25, 1.6]; doc[addEvent](type, fix, true); } }(document));
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
@@ -37,7 +46,31 @@
     </header>
 
     <section id="background">
-        <div class="container"></div>
+        <div class="container">
+            <div id="wrapper">
+                <div class="attribution">
+                    <div class="audio-name">
+                        <span property="dct:title">Brotherly Sickness</span>
+                        <span property="dct:title"> | Sassy Keys</span>
+                    </div>
+                </div>
+                <audio preload="auto" controls>
+                    <source src="audio/Brotherly_Sickness_lilmix.mp3">
+                </audio>
+                <script src="js/audioplayer.js"></script>
+                <script>$(function () { $('audio').audioPlayer(); });</script>
+            </div>
+            <div class="social-icon-wrapper">
+                <div class="social-icon">
+                    <div id="facebook">
+                        <a href="https://www.facebook.com/TumultuousProductions"><span class="clickable"></span></a>
+                    </div>
+                    <div id="twitter">
+                        <a href="https://twitter.com/TumultuousGame"><span class="clickable"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="overlay">
