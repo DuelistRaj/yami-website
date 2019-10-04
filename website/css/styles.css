@@ -178,7 +178,7 @@ header nav {
     font-size: 40px;
     line-height: 48px;
     font-weight: 300;
-    margin: 0 0 64px 0;
+    margin: 0 0 32px 0;
 }
 
 .game-info-wrapper {
@@ -191,7 +191,6 @@ header nav {
     position: relative;
     width: 330px;
     margin: 0;
-
 }
 
 .middle-info-wrapper {
@@ -199,7 +198,6 @@ header nav {
     position: relative;
     width: 330px;
     margin: 0;
-
 }
 
 .last-info-wrapper {
@@ -217,6 +215,7 @@ header nav {
     margin: 0 0 10px 0;
     padding-left: 10px;
     font-weight: bold;
+    margin: 30px 0 0 0;
 }
 
 .game-info-text p {
@@ -226,6 +225,22 @@ header nav {
     font-weight: 400;
     padding-left: 10px;
     -webkit-font-smoothing: antialiased;
+}
+
+.first-game-info {
+    margin: 20px;
+}
+
+.middle-game-info {
+    margin: 110px 0 0 0;
+}
+
+.last-game-info {
+    margin: 20px;
+}
+
+.first-content-wrapper {
+    margin-top: 40px;
 }
 
 #boxes .box-left {
@@ -327,6 +342,8 @@ header nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    object-fit: contain;
 }
 
 /*SPACE BETWEEN DIVS*/
@@ -501,6 +518,10 @@ footer p {
     -webkit-font-smoothing: antialiased;
 }
 
+.meet-the-team-text {
+    display: inline-block;
+}
+
 .meet-the-team h2 {
     color: #ffffff;
     text-align: center;
@@ -582,11 +603,62 @@ footer p {
     margin: 12px 0 48px 10px;
 }
 
+.assistant-leads {
+    position: relative;
+    float: left;
+    margin-left: 20%;
+}
+
+.assistant-leads h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 64px 0 32px 0;
+}
+
+.assistant-leads ul {
+    color: #ffffff;
+    padding-inline-start: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 12px 0 48px 10px;
+}
+
+.level-testers {
+    position: relative;
+    float: right;
+    margin-right: 25%;
+}
+
+.level-testers h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 64px 0 32px 0;
+}
+
+.level-testers ul {
+    color: #ffffff;
+    padding-inline-start: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 12px 0 48px 10px;
+}
+
 .composers {
     position: relative;
     float: left;
     margin-right: 15%;
-    margin-top: 48px;
 }
 
 .composers h3 {
@@ -803,6 +875,15 @@ footer p {
     #background {
         background-position: 49% 100%;
     }
+    .first-game-info {
+        margin: 0;
+    }
+    .middle-game-info {
+        margin: 0;
+    }
+    .last-game-info {
+        margin: 0;
+    }
     #boxes .box-left {
         width: 100%;
         height: auto;
@@ -826,6 +907,12 @@ footer p {
     #boxes .box-right img {
         width: 100%;
         height: auto;
+    }
+    .lower-background-wrapper h2 {
+        font-size: 24px;
+    }
+    .lower-background-wrapper img {
+        width: 70%;
     }
     footer {
         display: block;
@@ -889,11 +976,30 @@ footer p {
 }
 
 @media (max-width: 1320px) {
+    .meet-the-team-text {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .artists {
         float: none;
         margin: 0;
     }
+    .artists ul {
+        margin: 12px 0 48px 0;
+    }
     .programmers {
+        float: none;
+        margin: 0;
+    }
+    .programmers ul {
+        margin: 12px 0 48px 0;
+    }
+    .assistant-leads {
+        float: none;
+        margin: 0;
+    }
+    .level-testers {
         float: none;
         margin: 0;
     }
