@@ -181,6 +181,52 @@ header nav {
     margin: 0 0 64px 0;
 }
 
+.game-info-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.first-info-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    margin: 0;
+
+}
+
+.middle-info-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    margin: 0;
+
+}
+
+.last-info-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    margin: 0;
+}
+
+.game-info-heading h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    padding-left: 10px;
+}
+
+.game-info-text p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
 #boxes .box-left {
     float: left;
     width: 50%;
