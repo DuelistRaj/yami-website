@@ -216,6 +216,7 @@ header nav {
     font-weight: 400;
     margin: 0 0 10px 0;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .game-info-text p {
@@ -302,6 +303,30 @@ header nav {
     font-weight: 400;
     padding-right: 10px;
     -webkit-font-smoothing: antialiased;
+}
+
+#lower-background {
+    min-height: 540px;
+    background: url(../media/kinfallen-forest.png);
+    background-position: top left;
+    background-size: 200%;
+    margin: 40px 0 0 0;
+}
+
+.lower-background-wrapper h2 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 400;
+    margin: 128px 0 10px 0;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.lower-background-wrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*SPACE BETWEEN DIVS*/
