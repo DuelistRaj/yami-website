@@ -1,8 +1,13 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Metrophobic';
     padding: 0;
     margin: 0;
     background-color: #000000;
+    overflow-x: hidden;
 }
 
 /*GLOBAL*/
@@ -818,6 +823,139 @@ footer p {
 .testers {
     float: left;
     padding-right: 42px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------
+                                                    DEV LOGS
+--------------------------------------------------------------------------------------------------------------*/
+
+#dev-logs-background {
+    min-height: 96px;
+    background: url(../media/m_herobg-compressor.jpg);
+    background-position: 47% 100%;
+}
+
+#dev-logs {
+    padding: 64px 0 0 0;
+    box-sizing: border-box;
+}
+
+#dev-logs .post.p_link .link a {
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#dev-logs .post.p_link .link a {
+    text-decoration-color: initial;
+    color: rgb(249, 38, 114);
+}
+
+#dev-logs .post {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    box-shadow: 0px 0px 16px rgba(74, 193, 227, .48);
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: 1px solid rgb(166, 226, 46);
+    box-sizing: border-box;
+}
+
+#dev-logs .post.p_link .link {
+    margin: -20px;
+    margin-bottom: 16px;
+    padding: 20px;
+    background-color: rgba(164, 2, 57, .1);
+    border-bottom: 1px solid rgba(164, 2, 57, .3);
+    box-sizing: border-box;
+}
+
+#dev-logs .post.p_link .link {
+    color: rgb(230, 219, 116);
+}
+
+#dev-logs .post-title .excerpt {
+    color: rgb(230, 219, 116);
+}
+
+.inner-content-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.inner-content-wrapper ul {
+    color: #ffffff;
+}
+
+.inner-content-wrapper #date {
+    text-align: center;
+}
+
+.inner-content-wrapper #yami-ui-logo {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper .image-content {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper .image-caption {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.inner-content-wrapper h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.inner-content-wrapper h2 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.inner-content-wrapper p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.inner-content-wrapper span {
+    color: #ffffff;
+    line-height: 24px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.inner-content-wrapper a {
+    color: rgb(102, 217, 239);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*--------------------------------------------------------------------------------------------------------------
