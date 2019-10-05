@@ -529,6 +529,38 @@ footer p {
     background: url(../media/Twitter-Hover.png) no-repeat;
 }
 
+#instagram {
+    float: right;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 32px;
+    min-height: 32px;
+    background: url(../media/Instagram.png) no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+
+#instagram:hover {
+    background: url(../media/Instagram-Hover.png) no-repeat;
+}
+
+#itch-io {
+    float: right;
+    position: relative;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 32px;
+    min-height: 32px;
+    background: url(../media/itch.io.png) no-repeat;
+    object-fit: contain;
+    background-position: center;
+}
+
+#itch-io:hover {
+    background: url(../media/itch.io-Hover.png) no-repeat;
+}
+
 /*--------------------------------------------------------------------------------------------------------------
                                                      ABOUT PAGE 
 --------------------------------------------------------------------------------------------------------------*/
