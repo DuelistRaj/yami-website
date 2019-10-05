@@ -186,6 +186,27 @@ header nav {
     margin: 0 0 32px 0;
 }
 
+.features h3 {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin: 40px 0 0 0;
+}
+
+.features p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin: 20px 0 20px 0;
+    -webkit-font-smoothing: antialiased;
+}
+
 .game-info-wrapper {
     width: 100%;
     text-align: center;
