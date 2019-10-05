@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "deploy": "gh-pages -d website"
+    "deploy": "gh-pages -d website"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "homepage": "https://duelistraj.github.io/yami-website",
   "dependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "lightbox2": "^2.11.1"
   }
 }
