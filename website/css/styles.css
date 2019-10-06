@@ -1235,15 +1235,15 @@ footer p {
     .last-game-info {
         margin: 0;
     }
-    .first-game-info img{
+    .first-game-info img {
         width: 100%;
         margin-left: 10px;
     }
-    .middle-game-info img{
+    .middle-game-info img {
         width: 100%;
         margin-left: 10px;
     }
-    .last-game-info img{
+    .last-game-info img {
         width: 100%;
         margin-left: 10px;
     }
@@ -1350,6 +1350,15 @@ footer p {
         display: none;
     }
     hr {
+        display: none;
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 721px) {
+    #instagram {
+        display: none;
+    }
+    #itch-io {
         display: none;
     }
 }
