@@ -1058,6 +1058,46 @@ footer p {
     margin-right: auto;
 }
 
+.inner-content-wrapper #brothers-logo {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #shrubble {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #tresswing1 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #tresswing2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #scavenger {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #uprooter {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .inner-content-wrapper .image-caption {
     color: #ffffff;
     text-align: center;
@@ -1214,6 +1254,10 @@ footer p {
     }
     .lower-background-wrapper img {
         width: 70%;
+    }
+    .gallery {
+        width: 100%;
+        margin-left: 4%;
     }
     footer {
         display: block;
