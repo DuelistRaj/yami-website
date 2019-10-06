@@ -210,6 +210,7 @@ header nav {
 .game-info-wrapper {
     width: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .first-info-wrapper {
@@ -1216,6 +1217,15 @@ footer p {
     #background {
         background-position: 49% 100%;
     }
+    .first-info-wrapper {
+        width: 100%;
+    }
+    .middle-info-wrapper {
+        width: 100%;
+    }
+    .last-info-wrapper {
+        width: 100%;
+    }
     .first-game-info {
         margin: 0;
     }
@@ -1224,6 +1234,18 @@ footer p {
     }
     .last-game-info {
         margin: 0;
+    }
+    .first-game-info img{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .middle-game-info img{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .last-game-info img{
+        width: 100%;
+        margin-left: 10px;
     }
     #boxes .box-left {
         width: 100%;
