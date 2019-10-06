@@ -204,7 +204,11 @@ header nav {
 }
 
 .middle-game-info {
-    margin: 110px 0 0;
+    margin: 65px 0 0 0;
+}
+
+.middle-game-info img {
+    margin: 0 0 45px 10px;
 }
 
 .first-content-wrapper {
@@ -990,6 +994,7 @@ footer p {
 /*--------------------------------------------------------------------------------------------------------------
                                                 MEDIA ICONS DESKTOP
 --------------------------------------------------------------------------------------------------------------*/
+
 @media (max-width: 1260px) and (min-width: 721px) {
     #instagram, #itch-io {
         display: none;
