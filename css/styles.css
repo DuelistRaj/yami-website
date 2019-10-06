@@ -3,27 +3,23 @@ html {
 }
 
 body {
-    font-family: 'Metrophobic';
-    padding: 0;
-    margin: 0;
-    background-color: #000000;
+    font-family: Metrophobic;
+    background-color: #000;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
-
-/*GLOBAL*/
 
 .container {
     width: 80%;
-    margin: auto;
     overflow: hidden;
+    margin: auto;
 }
-
-/*NAVBAR*/
 
 header {
     background-color: rgba(15, 15, 15, 1);
     box-shadow: 0 15px 20px rgba(177, 5, 55, 0.3);
-    color: #ffffff;
+    color: #fff;
     min-height: 20px;
     height: 96px;
     position: fixed;
@@ -31,8 +27,10 @@ header {
     z-index: 1;
 }
 
+/*=================================================== NAVBAR ===================================================*/
+
 header a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -44,19 +42,19 @@ header ul {
 
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px;
 }
 
 header li a {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
 }
 
 header li a:hover {
-    color: palevioletred;
+    color: #D87093;
     -webkit-filter: brightness(150%);
     filter: brightness(150%);
-    transition: color 0.5s;
+    transition: color .5s;
 }
 
 header #logo {
@@ -66,9 +64,9 @@ header #logo {
 }
 
 header #logo img {
-    margin: 0;
     width: 164px;
     padding-top: 20px;
+    margin: 0;
 }
 
 header nav {
@@ -76,7 +74,7 @@ header nav {
     padding-top: 35px;
 }
 
-/*SECONDARY CLASSES*/
+/*=================================================== SECONDARY CLASSES ===================================================*/
 
 .solid {
     background-color: rgba(15, 15, 15, 0.8);
@@ -87,7 +85,7 @@ header nav {
     display: none;
 }
 
-/*BACKGROUND IMAGE*/
+/*====================================================== BACKGROUND ======================================================*/
 
 #background {
     min-height: 620px;
@@ -96,38 +94,32 @@ header nav {
 }
 
 #overlay {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0;
 }
+
+/*=================================================== CALL TO ACTION ====================================================*/
 
 .call-to-action {
     position: relative;
-    padding: 16px 0 0 0;
     min-height: 48px;
     display: flex;
+    padding: 16px 0 0;
 }
-
-/*AUDIO PLAYER*/
 
 #wrapper {
     width: 100%;
     max-width: 500px;
     position: absolute;
-    margin: 0 auto;
     padding-top: 550px;
+    margin: 0 auto;
 }
 
 .attribution {
-    padding: 0;
     text-align: left;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 0;
 }
-
-.attribution a {
-    color: #fff;
-}
-
-/*Size: 200 x 72 px*/
 
 #discord {
     position: relative;
@@ -143,8 +135,6 @@ header nav {
 #discord:hover {
     background: url(../media/Discord-Hover.png) no-repeat;
 }
-
-/*Size: 200 x 72 px*/
 
 #patreon {
     position: relative;
@@ -169,43 +159,34 @@ header nav {
     min-height: 64px;
 }
 
-/*IMAGES AND DESCRIPTION*/
-
 #boxes {
     margin-top: 64px;
 }
 
-/*Intro Heading*/
-
-#boxes .boxes-intro h2 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 0 0 32px 0;
-}
+/*====================================================== FEATURES ======================================================*/
 
 .features h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 32px;
     text-align: center;
     line-height: 32px;
     font-weight: 400;
     padding-left: 10px;
-    margin: 40px 0 0 0;
+    margin: 40px 0 0;
 }
 
 .features p {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     padding-left: 10px;
-    margin: 20px 0 20px 0;
     -webkit-font-smoothing: antialiased;
+    margin: 20px 0;
 }
+
+/*=============================================== WELCOME TO THE KINFALLEN ===============================================*/
 
 .game-info-wrapper {
     width: 100%;
@@ -213,57 +194,17 @@ header nav {
     box-sizing: border-box;
 }
 
-.first-info-wrapper {
-    display: inline-block;
-    position: relative;
-    width: 330px;
-    margin: 0;
-}
-
-.middle-info-wrapper {
-    display: inline-block;
-    position: relative;
-    width: 330px;
-    margin: 0;
-}
-
-.last-info-wrapper {
-    display: inline-block;
-    position: relative;
-    width: 330px;
-    margin: 0;
-}
-
 .game-info-heading h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 24px;
     line-height: 30px;
-    font-weight: 400;
-    margin: 0 0 10px 0;
     padding-left: 10px;
-    font-weight: bold;
-    margin: 30px 0 0 0;
-}
-
-.game-info-text p {
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    padding-left: 10px;
-    -webkit-font-smoothing: antialiased;
-}
-
-.first-game-info {
-    margin: 20px;
+    font-weight: 700;
+    margin: 30px 0 0;
 }
 
 .middle-game-info {
-    margin: 110px 0 0 0;
-}
-
-.last-game-info {
-    margin: 20px;
+    margin: 110px 0 0;
 }
 
 .first-content-wrapper {
@@ -276,16 +217,12 @@ header nav {
     height: 335px;
 }
 
-/*Images Left*/
-
 #boxes .box-left img {
     max-width: 100%;
     height: 335px;
     padding-right: 10px;
     object-fit: cover;
 }
-
-/*Images Right*/
 
 #boxes .box-right img {
     width: 50%;
@@ -295,8 +232,6 @@ header nav {
     object-fit: cover;
 }
 
-/*Description Left*/
-
 .box-left-description {
     max-width: 48%;
     height: 335px;
@@ -304,24 +239,13 @@ header nav {
 }
 
 .box-left-description h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
-    margin: 0 0 10px 0;
     padding-left: 10px;
+    margin: 0 0 10px;
 }
-
-.box-left-description p {
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    padding-left: 10px;
-    -webkit-font-smoothing: antialiased;
-}
-
-/*Description Right*/
 
 .box-right-description {
     max-width: 48%;
@@ -330,16 +254,16 @@ header nav {
 }
 
 .box-right-description h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
-    margin: 0 0 10px 0;
     padding-right: 10px;
+    margin: 0 0 10px;
 }
 
 .box-right-description p {
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -347,22 +271,24 @@ header nav {
     -webkit-font-smoothing: antialiased;
 }
 
+/*=================================================== MADE WITH UNITY ===================================================*/
+
 #lower-background {
     min-height: 540px;
     background: url(../media/kinfallen-forest.png);
     background-position: top left;
     background-size: 200%;
-    margin: 40px 0 0 0;
+    margin: 40px 0 0;
 }
 
 .lower-background-wrapper h2 {
-    color: #ffffff;
+    color: #fff;
     font-size: 32px;
     line-height: 50px;
     font-weight: 400;
-    margin: 128px 0 10px 0;
     padding-left: 10px;
     text-align: center;
+    margin: 128px 0 10px;
 }
 
 .lower-background-wrapper img {
@@ -373,10 +299,10 @@ header nav {
     object-fit: contain;
 }
 
-/*SPACE BETWEEN DIVS*/
+/*=================================================== HORIZONTAL SPACE ===================================================*/
 
 .hc_space_cnt {
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
 .col-md-12 {
@@ -392,7 +318,7 @@ hr.space.l {
 }
 
 hr.space {
-    border: none !important;
+    border: none!important;
     clear: both;
     height: 70px;
     margin: 0;
@@ -404,16 +330,7 @@ hr {
     border: 0;
 }
 
-/*Gallery*/
-
-.gallery-wrapper h1 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 0 0 32px 0;
-}
+/*======================================================= GALLERY =======================================================*/
 
 .gallery {
     position: relative;
@@ -427,39 +344,29 @@ hr {
 
 .image-type-first {
     width: 30%;
-    border: 2px solid rgb(51, 51, 51);
+    border: 2px solid #333;
     object-fit: cover;
     box-sizing: border-box;
     -webkit-transition: .25s;
     transition: .25s;
-}
-
-.image-type-first:hover {
-    transform: scale(1.05);
-    z-index: 5;
 }
 
 .image-type-second {
     width: 60%;
-    border: 2px solid rgb(51, 51, 51);
+    border: 2px solid #333;
     object-fit: cover;
     box-sizing: border-box;
     -webkit-transition: .25s;
     transition: .25s;
 }
 
-.image-type-second:hover {
-    transform: scale(1.05);
-    z-index: 5;
-}
-
-/*Footer*/
+/*======================================================= FOOTER =======================================================*/
 
 footer {
-    padding: 0;
     margin-top: 20px;
     background-color: rgba(15, 15, 15, 1);
     display: flex;
+    padding: 0;
 }
 
 #brand-logo {
@@ -481,17 +388,17 @@ footer p {
     float: left;
     position: relative;
     width: 80%;
-    padding: 0;
     margin-top: 30px;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 13px;
+    padding: 0;
 }
 
-/*SOCIAL MEDIA*/
+/*====================================================== MEDIA ICONS ======================================================*/
 
 .social-icon-wrapper {
-    margin: 550px 0 0 0;
+    margin: 550px 0 0;
 }
 
 .social-icon {
@@ -562,10 +469,6 @@ footer p {
     background: url(../media/itch.io-Hover.png) no-repeat;
 }
 
-/*--------------------------------------------------------------------------------------------------------------
-                                                     ABOUT PAGE 
---------------------------------------------------------------------------------------------------------------*/
-
 #about-background {
     min-height: 620px;
     background: url(../media/yami-concept.png) no-repeat;
@@ -576,31 +479,24 @@ footer p {
     margin-top: 32px;
 }
 
+/*======================================================= ABOUT PAGE =======================================================*/
+
 .who-are-we h2 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 40px;
     line-height: 48px;
     font-weight: 300;
-    margin: 0 0 48px 0;
+    margin: 0 0 48px;
 }
 
 .who-are-we p {
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     text-align: center;
     -webkit-font-smoothing: antialiased;
-}
-
-.what-is-yami h2 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 48px 0;
 }
 
 .what-is-yami-wrapper {
@@ -609,56 +505,38 @@ footer p {
 
 .what-is-yami-text p {
     float: left;
-    margin: 0 10px 0 0;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    margin: 0 10px 0 0;
 }
 
 #yami-para p {
     float: right;
-    padding: 0 0 0 10px;
-    margin: 0;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0 0 0 10px;
 }
 
 .meet-the-team-text {
     display: inline-block;
 }
 
-.meet-the-team h2 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 48px 0;
-}
-
-.leads h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
 .leads ul {
-    color: #ffffff;
+    color: #fff;
     padding-inline-start: 0;
     list-style-type: none;
     text-align: center;
     font-size: 18px;
     line-height: 48px;
     font-weight: 300;
-    margin: 12px 0 48px 0;
+    margin: 12px 0 48px;
 }
 
 .artists {
@@ -667,17 +545,8 @@ footer p {
     margin-left: 25%;
 }
 
-.artists h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
 .artists ul {
-    color: #ffffff;
+    color: #fff;
     padding-inline-start: 0;
     list-style-type: none;
     text-align: center;
@@ -687,108 +556,16 @@ footer p {
     margin: 12px 10px 48px 0;
 }
 
-.programmers {
-    position: relative;
-    float: right;
-    margin-right: 25%;
-}
-
-.programmers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.programmers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
 .assistant-leads {
     position: relative;
     float: left;
     margin-left: 20%;
 }
 
-.assistant-leads h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.assistant-leads ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
-.level-testers {
-    position: relative;
-    float: right;
-    margin-right: 25%;
-}
-
-.level-testers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.level-testers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
 .composers {
     position: relative;
     float: left;
     margin-right: 15%;
-}
-
-.composers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.composers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
 }
 
 .writers {
@@ -798,51 +575,11 @@ footer p {
     margin-left: 10%;
 }
 
-.writers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.writers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
 .video-editors {
     position: relative;
     float: right;
     margin-left: 15%;
     margin-right: 2%;
-}
-
-.video-editors h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.video-editors ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
 }
 
 .social-media-managers {
@@ -852,51 +589,11 @@ footer p {
     margin-left: 2%;
 }
 
-.social-media-managers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.social-media-managers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
 .level-designers {
     position: relative;
     float: left;
     margin-right: 5%;
     margin-left: 7%;
-}
-
-.level-designers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.level-designers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
 }
 
 .web-developers {
@@ -905,34 +602,12 @@ footer p {
     margin-left: 8%;
 }
 
-.web-developers h3 {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 64px 0 32px 0;
-}
-
-.web-developers ul {
-    color: #ffffff;
-    padding-inline-start: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 12px 0 48px 10px;
-}
-
 .testers {
     float: left;
     padding-right: 42px;
 }
 
-/*--------------------------------------------------------------------------------------------------------------
-                                                    DEV LOGS
---------------------------------------------------------------------------------------------------------------*/
+/*======================================================= DEVLOGS =======================================================*/
 
 #dev-logs-background {
     min-height: 96px;
@@ -941,58 +616,42 @@ footer p {
 }
 
 #dev-logs {
-    padding: 64px 0 0 0;
     box-sizing: border-box;
+    padding: 64px 0 0;
 }
 
 #dev-logs .post.p_link .link a {
     display: block;
     font-size: 2em;
     text-decoration: none;
-}
-
-#dev-logs .post.p_link .link a {
     text-decoration-color: initial;
-    color: rgb(249, 38, 114);
+    color: #f92672;
 }
 
 #dev-logs .post {
     width: 700px;
     max-width: 100%;
-    margin: 0 auto;
     background-color: rgba(0, 0, 0, .2);
-    padding: 20px;
-    box-shadow: 0px 0px 16px rgba(74, 193, 227, .48);
+    box-shadow: 0 0 16px rgba(74, 193, 227, .48);
     overflow: hidden;
-    margin-bottom: 50px;
-    border: 1px solid rgb(174, 129, 255);
+    border: 1px solid #ae81ff;
     box-sizing: border-box;
+    margin: 0 auto 50px;
+    padding: 20px;
 }
 
 #dev-logs .post.p_link .link {
-    margin: -20px;
-    margin-bottom: 16px;
-    padding: 20px;
     background-color: rgba(164, 2, 57, .1);
     border-bottom: 1px solid rgba(164, 2, 57, .3);
     box-sizing: border-box;
-}
-
-#dev-logs .post.p_link .link {
-    color: rgb(102, 217, 239);
-}
-
-#dev-logs .post-title .excerpt {
-    color: rgb(102, 217, 239);
+    color: #66d9ef;
+    margin: -20px -20px 16px;
+    padding: 20px;
 }
 
 .inner-content-wrapper {
-    width: 80%;
+    width: 100%;
     margin: auto;
-}
-
-.inner-content-wrapper ul {
-    color: #ffffff;
 }
 
 .inner-content-wrapper #date {
@@ -1002,15 +661,6 @@ footer p {
 .inner-content-wrapper #yami-ui-logo {
     display: block;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*IMAGE CONTENTS*/
-
-.inner-content-wrapper #yuki-yuyo {
-    display: block;
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1033,39 +683,6 @@ footer p {
     margin-right: auto;
 }
 
-.inner-content-wrapper #lingering-nomad {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #celestial-bodies1 {
-    width: 48%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #celestial-bodies2 {
-    width: 48%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #save-load {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #brothers-logo {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .inner-content-wrapper #shrubble {
     display: block;
     width: 75%;
@@ -1073,34 +690,8 @@ footer p {
     margin-right: auto;
 }
 
-.inner-content-wrapper #tresswing1 {
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #tresswing2 {
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #scavenger {
-    display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inner-content-wrapper #uprooter {
-    display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .inner-content-wrapper .image-caption {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 18px;
     line-height: 24px;
@@ -1109,7 +700,7 @@ footer p {
 }
 
 .inner-content-wrapper h1 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     font-size: 42px;
     line-height: 42px;
@@ -1118,7 +709,7 @@ footer p {
 }
 
 .inner-content-wrapper h2 {
-    color: #ffffff;
+    color: #fff;
     font-size: 28px;
     line-height: 32px;
     font-weight: 700;
@@ -1126,7 +717,7 @@ footer p {
 }
 
 .inner-content-wrapper h3 {
-    color: #ffffff;
+    color: #fff;
     font-size: 22px;
     line-height: 28px;
     font-weight: 700;
@@ -1134,7 +725,7 @@ footer p {
 }
 
 .inner-content-wrapper p {
-    color: #ffffff;
+    color: #fff;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -1142,7 +733,7 @@ footer p {
 }
 
 .inner-content-wrapper a {
-    color: rgb(102, 217, 239);
+    color: #66d9ef;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -1151,19 +742,129 @@ footer p {
 }
 
 .inner-content-wrapper .question {
-    color: rgb(174, 129, 255);
-}
-
-.inner-content-wrapper .answer {
-    color: rgb(102, 217, 239);
+    color: #ae81ff;
 }
 
 .inner-content-wrapper .starred {
-    color: rgb(166, 226, 46);
+    color: #a6e22e;
+}
+
+.attribution a, .inner-content-wrapper ul {
+    color: #fff;
+}
+
+#boxes .boxes-intro h2, .gallery-wrapper h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 0 0 32px;
+}
+
+.first-info-wrapper, .middle-info-wrapper, .last-info-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 330px;
+    margin: 0;
+}
+
+.game-info-text p, .box-left-description p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.first-game-info, .last-game-info {
+    margin: 20px;
+}
+
+.image-type-first:hover, .image-type-second:hover {
+    transform: scale(1.05);
+    z-index: 5;
+}
+
+/*======================================================= ABOUT PAGE =======================================================*/
+
+.what-is-yami h2, .meet-the-team h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 64px 0 48px;
+}
+
+.leads h3, .artists h3, .programmers h3, .assistant-leads h3, .level-testers h3, .composers h3, .writers h3, .video-editors h3, .social-media-managers h3, .level-designers h3, .web-developers h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 64px 0 32px;
+}
+
+.programmers, .level-testers {
+    position: relative;
+    float: right;
+    margin-right: 25%;
+}
+
+.programmers ul, .assistant-leads ul, .level-testers ul, .composers ul, .writers ul, .video-editors ul, .social-media-managers ul, .level-designers ul, .web-developers ul {
+    color: #fff;
+    padding-inline-start: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 300;
+    margin: 12px 0 48px 10px;
+}
+
+/*=================================================== DEVLOGS IMAGES ===================================================*/
+
+#dev-logs .post-title .excerpt, .inner-content-wrapper .answer {
+    color: #66d9ef;
+}
+
+.inner-content-wrapper #yuki-yuyo, .inner-content-wrapper #lingering-nomad {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #celestial-bodies1, .inner-content-wrapper #celestial-bodies2 {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #save-load, .inner-content-wrapper #brothers-logo {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #tresswing1, .inner-content-wrapper #tresswing2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-content-wrapper #scavenger, .inner-content-wrapper #uprooter {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--------------------------------------------------------------------------------------------------------------
-                                                       MOBILE
+                                                        MOBILE
 --------------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 720px) {
@@ -1172,12 +873,11 @@ footer p {
     }
     header ul {
         background-color: rgba(15, 15, 15, 1);
-        margin-top: 45px;
         width: 100%;
         height: initial;
         float: none;
         padding-bottom: 10px;
-        margin: 10px 0 0 0;
+        margin: 10px 0 0;
     }
     header ul li {
         float: none;
@@ -1192,9 +892,6 @@ footer p {
         width: 90%;
         border-bottom: 1px solid #f9cf87;
     }
-    header nav {
-        display: none;
-    }
     header #logo {
         float: right;
         max-width: 40%;
@@ -1203,10 +900,10 @@ footer p {
     }
     header #logo img {
         float: right;
-        margin: 0;
         width: 96px;
-        padding-top: 0px;
+        padding-top: 0;
         position: relative;
+        margin: 0;
     }
     #m-nav-icon {
         background: url(../media/m-nav-icon.png);
@@ -1217,58 +914,8 @@ footer p {
     #background {
         background-position: 49% 100%;
     }
-    .first-info-wrapper {
-        width: 100%;
-    }
-    .middle-info-wrapper {
-        width: 100%;
-    }
-    .last-info-wrapper {
-        width: 100%;
-    }
-    .first-game-info {
-        margin: 0;
-    }
-    .middle-game-info {
-        margin: 0;
-    }
-    .last-game-info {
-        margin: 0;
-    }
-    .first-game-info img {
-        width: 100%;
-        margin-left: 10px;
-    }
-    .middle-game-info img {
-        width: 100%;
-        margin-left: 10px;
-    }
-    .last-game-info img {
-        width: 100%;
-        margin-left: 10px;
-    }
-    #boxes .box-left {
-        width: 100%;
-        height: auto;
-    }
-    #boxes .box-right {
-        width: 100%;
-        height: auto;
-    }
-    .box-left-description {
-        max-width: 100%;
-        margin: 30px 0 0 0;
-    }
-    .box-right-description {
-        max-width: 100%;
-        margin: 30px 0 0 0;
-    }
     #boxes .box-left img {
         max-width: 100%;
-        height: auto;
-    }
-    #boxes .box-right img {
-        width: 100%;
         height: auto;
     }
     .lower-background-wrapper h2 {
@@ -1281,24 +928,8 @@ footer p {
         width: 100%;
         margin-left: 4%;
     }
-    footer {
-        display: block;
-    }
     .footer-text {
         margin-left: 0;
-    }
-    #brand-logo {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    footer p {
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .social-icon-wrapper {
-        display: none;
     }
     .social-icon {
         width: 178px;
@@ -1310,28 +941,7 @@ footer p {
     #facebook {
         display: inline-block;
         float: none;
-        margin: 0 !important;
-    }
-    #twitter {
-        display: inline-block;
-        float: none;
-        margin: 0 !important;
-        padding-left: 20px;
-    }
-    #instagram {
-        display: inline-block;
-        float: none;
-        margin: 0 !important;
-        padding-left: 20px;
-    }
-    #itch-io {
-        display: inline-block;
-        float: none;
-        margin: 0 !important;
-        padding-left: 20px;
-    }
-    .call-to-action {
-        display: block;
+        margin: 0!important;
     }
     #discord {
         margin-bottom: 10px;
@@ -1340,25 +950,48 @@ footer p {
     #patreon {
         margin-left: auto;
     }
-    .col-md-12 {
+    header nav, .social-icon-wrapper, .col-md-12, hr.space.l, hr.space, hr {
         display: none;
     }
-    hr.space.l {
-        display: none;
+    .first-info-wrapper, .middle-info-wrapper, .last-info-wrapper {
+        width: 100%;
     }
-    hr.space {
-        display: none;
+    .first-game-info, .middle-game-info, .last-game-info {
+        margin: 0;
     }
-    hr {
-        display: none;
+    .first-game-info img, .middle-game-info img, .last-game-info img {
+        width: 100%;
+        margin-left: 10px;
+    }
+    #boxes .box-left, #boxes .box-right, #boxes .box-right img {
+        width: 100%;
+        height: auto;
+    }
+    .box-left-description, .box-right-description {
+        max-width: 100%;
+        margin: 30px 0 0;
+    }
+    footer, .call-to-action {
+        display: block;
+    }
+    #brand-logo, footer p {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #twitter, #instagram, #itch-io {
+        display: inline-block;
+        float: none;
+        padding-left: 20px;
+        margin: 0!important;
     }
 }
 
+/*--------------------------------------------------------------------------------------------------------------
+                                                MEDIA ICONS DESKTOP
+--------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 1260px) and (min-width: 721px) {
-    #instagram {
-        display: none;
-    }
-    #itch-io {
+    #instagram, #itch-io {
         display: none;
     }
 }
@@ -1373,59 +1006,11 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
-    .artists {
+    .artists, .programmers, .assistant-leads, .level-testers, .composers, .writers, .video-editors, .social-media-managers, .level-designers, .web-developers {
         float: none;
         margin: 0;
     }
-    .artists ul {
-        margin: 12px 0 48px 0;
+    .artists ul, .programmers ul {
+        margin: 12px 0 48px;
     }
-    .programmers {
-        float: none;
-        margin: 0;
-    }
-    .programmers ul {
-        margin: 12px 0 48px 0;
-    }
-    .assistant-leads {
-        float: none;
-        margin: 0;
-    }
-    .level-testers {
-        float: none;
-        margin: 0;
-    }
-    .composers {
-        float: none;
-        margin: 0;
-    }
-    .writers {
-        float: none;
-        margin: 0;
-    }
-    .video-editors {
-        float: none;
-        margin: 0;
-    }
-    .social-media-managers {
-        float: none;
-        margin: 0;
-    }
-    .level-designers {
-        float: none;
-        margin: 0;
-    }
-    .web-developers {
-        float: none;
-        margin: 0;
-    }
-}
-
-/*--------------------------------------------------------------------------------------------------------------
-                                                    ABOUT MOBILE
---------------------------------------------------------------------------------------------------------------*/
-
-.inner-content-wrapper {
-    width: 100%;
-    margin: auto;
 }
