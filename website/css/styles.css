@@ -1279,11 +1279,11 @@ footer p {
         display: none;
     }
     .social-icon {
-        width: 89px;
+        width: 178px;
         max-height: 64px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 10px;
+        padding-left: 20px;
     }
     #facebook {
         display: inline-block;
@@ -1291,6 +1291,18 @@ footer p {
         margin: 0 !important;
     }
     #twitter {
+        display: inline-block;
+        float: none;
+        margin: 0 !important;
+        padding-left: 20px;
+    }
+    #instagram {
+        display: inline-block;
+        float: none;
+        margin: 0 !important;
+        padding-left: 20px;
+    }
+    #itch-io {
         display: inline-block;
         float: none;
         margin: 0 !important;
