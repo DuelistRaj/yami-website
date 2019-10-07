@@ -984,10 +984,10 @@ hr {
         max-width: 100%;
         margin: 30px 0 0;
     }
-    footer, .call-to-action {
+    #footer, .call-to-action {
         display: block;
     }
-    #brand-logo, footer p {
+    #brand-logo, #footer p {
         float: none;
         margin-left: auto;
         margin-right: auto;
